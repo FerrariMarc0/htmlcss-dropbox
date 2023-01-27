@@ -18,6 +18,11 @@
 body{
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+header, .flexnav, .flexbox{
+    display: flex;
 }
 /*
 --------------------
@@ -25,7 +30,6 @@ body{
 --------------------
 */
 header{
-    display: flex;
     height: 80px;
     width: 100%;
     position: fixed;
@@ -46,7 +50,6 @@ a img{
     width: 33%;
 }
 .flexnav{
-    display: flex;
     justify-content: space-between;
 }
 
@@ -55,12 +58,46 @@ a img{
     justify-content: space-between;
     margin-right: 10px;
 }
+#start{
+    background-color: #0061ff;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
 /*
 --------------------
        MAIN
 --------------------
 */
+.first-section{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 700px;
+    margin-top: 80px;
+}
 
+.title-container{
+    font-size: 2rem;
+    font-weight: 2rem;
+    width: 800px;
+    margin: auto;
+    padding-top: 50px;
+}
+.first-p{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+}
+.proposta{
+    height: 400px;
+    width: 403px;
+    background-color: aqua;
+    position: relative;
+}
+.flexbox{
+    justify-content: center;
+    margin-top: 5%;
+}
 /*
 --------------------
        FOOTER
