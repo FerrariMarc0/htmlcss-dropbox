@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
+    
 }
 
 /*
@@ -21,8 +22,13 @@ body{
     position: relative;
 }
 
-header, .flexnav, .flexbox{
+.flex{
     display: flex;
+}
+
+.sections{
+    width: 1006px;
+    margin: auto;
 }
 /*
 --------------------
@@ -67,7 +73,7 @@ a img{
 
 /*
 --------------------
-       MAIN
+       SECTION 1
 --------------------
 */
 .first-section{
@@ -77,7 +83,7 @@ a img{
     margin-top: 80px;
 }
 
-.title-container{
+.title{
     font-size: 2rem;
     font-weight: 2rem;
     width: 800px;
@@ -85,13 +91,10 @@ a img{
     padding-top: 60px;
 }
 .first-p{
-    height: 400px;
     width: 350px;
 }
 .proposta{
-    
     width: 785px;
-    position: relative;
 }
 .flexbox{
     justify-content: center;
@@ -99,7 +102,6 @@ a img{
 }
 .proposta img{
     width: 100%;
-    height: 100%;
 }
 .first-p > p{
     margin-bottom: 50px;
@@ -109,6 +111,58 @@ a img{
 }
 .first-p i{
     font-size: 3rem;
+}
+/*
+--------------------
+       SECTION 2
+--------------------
+*/
+.second-section{
+    margin: 100px auto 0;
+}
+.second-title h2{
+    margin-bottom: 5%;
+}
+input:last-child{
+    margin-left: 50px;
+}
+/*
+--------------------
+       SECTION 3
+--------------------
+*/
+.third-section{
+    gap: 50px;
+    margin-top: 40px;
+}
+.column{
+    height: 960px;
+    width: calc(100% / 3);
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #d0d0d3;
+}
+.column div, .row div:first-child{
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px;
+    text-align: center;
+}
+
+.row{
+    border: 1px solid #d0d0d3;
+    margin-top: 40px;
+}
+.enterprise{
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.row span:nth-child(3){
+    padding-left: 20px;
+}
+.solutions{
+    width: 70%;
+    padding: 50px 20px 10px;
 }
 /*
 --------------------
