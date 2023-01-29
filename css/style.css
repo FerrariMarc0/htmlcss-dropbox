@@ -21,13 +21,13 @@ body{
     font-family: 'Roboto', sans-serif;
     position: relative;
 }
-
+.sections{
+    width: 1006px;
+}
 .flex{
     display: flex;
 }
-
-.sections{
-    width: 1006px;
+.center{
     margin: auto;
 }
 /*
@@ -135,15 +135,20 @@ input:last-child{
     gap: 50px;
     margin-top: 40px;
 }
+.border{
+    border: 1px solid #d0d0d3; 
+}
+.borderbot{
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+}
 .column{
     height: 960px;
     width: calc(100% / 3);
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid #d0d0d3;
 }
-.column div, .row div:first-child{
-    border-bottom: 1px solid #d0d0d3;
+.column div{
     padding: 10px;
     text-align: center;
 }
@@ -162,10 +167,132 @@ input:last-child{
 }
 .solutions{
     width: 70%;
-    padding: 50px 20px 10px;
+    padding: 50px 20px 20px;
 }
 /*
 --------------------
-       FOOTER
+       SECTION 3
 --------------------
 */
+.partner{
+    width: 650px;
+}
+.partner img{
+    width: 100%;
+}
+.partnerflex{
+    gap: 40px;
+}
+.second-p{
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.second-p h4, p{
+    margin-bottom: 30px;
+}
+.second-p h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+/*
+--------------------
+       SECTION 5
+--------------------
+*/
+.images{
+    width: 290px;
+    border-bottom: none;
+}
+.img-1{
+    width: 100%;
+}
+
+.fifth-title{
+    margin-left: 25%;
+}
+/*
+--------------------
+       SECTION 6
+--------------------
+*/
+.littlebox h1{
+    margin: 80px 0;
+}
+/*
+--------------------
+       SECTION 7
+--------------------
+*/
+.sponsor{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    margin-top: 150px;
+}
+.first-square, .third-square{
+    width: 33.3%;
+    flex-wrap: wrap;
+}
+.second-square{
+    width: 33.3%;
+}
+
+.background{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+}
+.background-img{
+    width: 50%;
+    margin-bottom: 40px;
+}
+.topbox{
+    height: 20%;
+    padding: 30px 0 40px 20px;
+}
+.topbox > p{
+    margin-top: 40px;
+}
+/*
+--------------------
+       SECTION 8
+--------------------
+*/
+.bottombox{
+    width: 100vw;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b4d0e7;
+    margin-bottom: 10%;
+}
+.linke{
+    justify-content: center;
+    width: 480px;
+    
+}
+.portadropbox{
+    font-size: 20px;
+    width: 350px;
+}
+/*
+--------------------
+       SECTION 9
+--------------------
+*/
+.bonusbox{
+    height: 371px;
+}
+.bonus{
+    border-bottom: 1px solid;
+    height: calc(100% / 4);
+    margin-top: 70px;
+}
+.bonus > button{
+    margin-left: 30%;
+    border: 0;
+    background-color: white;
+}
