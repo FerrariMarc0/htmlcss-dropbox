@@ -443,8 +443,9 @@ footer h2{
     margin-bottom: 10%;
 }
 select{
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #ffffff;
     margin-left: 5px;
+    padding: 5px;
 }
 
