@@ -115,7 +115,7 @@ a img{
 
 /*
 --------------------
-       SECTION 1
+       JUMBO
 --------------------
 */
 .first-section{
@@ -156,7 +156,7 @@ a img{
 }
 /*
 --------------------
-       SECTION 2
+       SECTION 1
 --------------------
 */
 .second-section{
@@ -170,7 +170,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 3
+       SECTION 2
 --------------------
 */
 .third-section{
@@ -222,7 +222,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 4
+       SECTION 3
 --------------------
 */
 .partner{
@@ -250,7 +250,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 5
+       GRID
 --------------------
 */
 .coltwo{
@@ -273,7 +273,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 6
+       SECTION 4
 --------------------
 */
 .littlebox h1{
@@ -286,7 +286,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 7
+       SECTION 5
 --------------------
 */
 .sponsor{
@@ -355,7 +355,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 8
+       SECTION 6
 --------------------
 */
 .bottombox{
@@ -383,7 +383,7 @@ input:last-child{
 }
 /*
 --------------------
-       SECTION 9
+       BONUS
 --------------------
 */
 .bonusbox{
@@ -425,7 +425,7 @@ footer{
     width: 125px;
     height: 120px;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
     left: 15%;
     border-top: 2px solid;
     align-items: center;
@@ -434,7 +434,6 @@ footer{
     border: 0;
     background-color: #000000;
     color: #ffffff;
-    margin-left: 5%;
 }
 footer a{
     text-decoration: none;
@@ -442,5 +441,10 @@ footer a{
 }
 footer h2{
     margin-bottom: 10%;
+}
+select{
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 5px;
 }
 
