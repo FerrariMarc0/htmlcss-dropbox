@@ -14,6 +14,12 @@
       COMMON
 --------------------
 */
+nav li:hover{
+    border-bottom: 2px solid;
+}
+.button-b:hover, .button-w:hover{
+    background-color: rgba(250, 50, 200, 0.3);
+}
 .button-w{
     padding: 10px 20px;
     border: 1px solid #000000;
@@ -26,7 +32,7 @@ body{
     position: relative;
 }
 .sections{
-    width: 1006px;
+    max-width: 1006px;
 }
 .flex{
     display: flex;
@@ -34,11 +40,14 @@ body{
 .center{
     margin: auto;
 }
+.bluecheck{
+    color: #0063ff;
+}
 .bottom-nav{
     flex-direction: column;
     justify-content: space-around;
     height: 230px;
-    width: 170px;
+    max-width: 170px;
 }
 button, input:hover{
     cursor: pointer;
@@ -70,9 +79,10 @@ header{
     left: 0;
     justify-content: space-between;
     background-color: #ffffff;
+    overflow: hidden
 }
 nav ul{
-    height: 100%;
+    max-height: 100%;
 }
 
 nav a{
@@ -110,23 +120,23 @@ a img{
 */
 .first-section{
     background-color: #b4d0e7;
-    width: 100%;
-    height: 700px;
+    max-width: 100%;
+    max-height: 700px;
     margin-top: 80px;
 }
 
 .title{
     font-size: 30px;
     font-weight: 2rem;
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     padding-top: 60px;
 }
 .first-p{
-    width: 350px;
+    max-width: 350px;
 }
 .proposta{
-    width: 785px;
+    max-width: 785px;
 }
 .flexbox{
     justify-content: center;
@@ -164,7 +174,7 @@ input:last-child{
 --------------------
 */
 .third-section{
-    gap: 50px;
+    justify-content: space-between;
     margin-top: 40px;
 }
 .border{
@@ -178,7 +188,7 @@ input:last-child{
 }
 .column{
     height: 960px;
-    width: calc(100% / 3);
+    max-width: 30%;
     flex-direction: column;
 }
 .pad{
@@ -207,7 +217,7 @@ input:last-child{
     padding-left: 20px;
 }
 .solutions{
-    width: 70%;
+    max-width: 70%;
     padding: 50px 20px 20px;
 }
 /*
@@ -216,7 +226,7 @@ input:last-child{
 --------------------
 */
 .partner{
-    width: 600px;
+    max-width: 600px;
     margin-bottom: 10%;
 }
 .partner img{
@@ -226,7 +236,7 @@ input:last-child{
     gap: 40px;
 }
 .second-p{
-    width: 250px;
+    max-width: 250px;
     align-items: center;
     justify-content: center;
     padding-top: 50px;
@@ -247,7 +257,7 @@ input:last-child{
     margin: 0 5%;
 }
 .images{
-    width: 290px;
+    max-width: 290px;
     border-bottom: none;
 }
 .img-1{
@@ -271,7 +281,7 @@ input:last-child{
     font-size: 2rem;
 }
 .littlebox{
-    width: 25%;
+    max-width: 25%;
     margin-left: 23%;
 }
 /*
@@ -280,19 +290,19 @@ input:last-child{
 --------------------
 */
 .sponsor{
-    width: 100vw;
-    height: 640px;
+    width: 100%;
     display: flex;
     margin-top: 150px;
 }
 .first-square, .third-square{
-    width: 35%;
+    width: 33%;
     flex-wrap: wrap;
 }
 .second-square{
-    width: 30%;
+    width: 33%;
     background-color: #f5f5f5;
     padding: 0 30px;
+    overflow: hidden;
 }
 
 .background{
@@ -301,14 +311,16 @@ input:last-child{
     justify-content: center;
 }
 #uf{
-    width: 60%;
+    max-width: 60%;
     height: 10%;
     margin-top: 40%;
+    filter: invert(1);
 }
 .background-img{
     width: 30%;
     margin-bottom: 40px;
     padding-top: 45px;
+    filter: invert(1);
 }
 .topbox{
     height: 20%;
@@ -347,7 +359,6 @@ input:last-child{
 --------------------
 */
 .bottombox{
-    width: 100vw;
     height: 365px;
     display: flex;
     justify-content: center;
@@ -366,8 +377,9 @@ input:last-child{
     text-decoration: none;
 }
 .portadropbox{
-    font-size: 20px;
-    width: 350px;
+    font-size: 100%;
+    max-width: 350px;
+    color: #61082b;
 }
 /*
 --------------------
@@ -375,7 +387,7 @@ input:last-child{
 --------------------
 */
 .bonusbox{
-    height: 371px;
+    height: 370px;
 }
 .bonus{
     border-bottom: 1px solid;
@@ -393,8 +405,7 @@ input:last-child{
 --------------------
 */
 footer{
-    height: 70%;
-    width: 100vw;
+    height: 60%;
     background-color: #000000;
     color: #ffffff;
     margin-top: 20%;
@@ -432,11 +443,4 @@ footer a{
 footer h2{
     margin-bottom: 10%;
 }
-/*
---------------------
-     
---------------------
-*/
-nav li:hover{
-    border-bottom: 2px solid;
-}
+
